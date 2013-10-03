@@ -6,7 +6,7 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'hive_master.views.home', name='home'),
+    url(r'^$', 'hive_master.views.index', name='home'),
     # url(r'^hive_master/', include('hive_master.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
