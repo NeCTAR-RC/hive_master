@@ -23,7 +23,7 @@ DATABASES = {
 }
 
 PUPPET_MODULES = "/home/russell/tmp/puppet/modules/production"
-GITWEB_BASE_URL = "http://git.melbourne.nectar.org.au/gitweb/"
+GITWEB_BASE_URL = "http://git.test/gitweb/"
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
