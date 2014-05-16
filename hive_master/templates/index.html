@@ -41,7 +41,11 @@
               {% endif %}
               <td>{{ module.commits_behind }}</td>
               {% if module.commits_behind > 0 %}
-              <td><a href="{{ module.changes }}">Changes</a></td>
+              <td>
+                {% if module.url %}
+                <a href="{{ module.changes }}">Changes</a>
+                {% endif %}
+              </td>
               {% endif %}
             </tr>
           {% endfor %}
